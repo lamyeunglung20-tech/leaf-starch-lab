@@ -1,4 +1,4 @@
-import * as THREE from './vendor/three.module.js';
+import * as THREE from './vendor/three.module.js?v=2';
 
 const C={ink:0x314b58,glass:0xd7f6fa,water:0x86cde1,leaf:0x71ad62,pale:0xe8dc9b,starch:0x202650,alcohol:0xf7dfa6,iodine:0x9a5833,cream:0xfff8e9};
 const clamp=THREE.MathUtils.clamp;
